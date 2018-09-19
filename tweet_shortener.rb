@@ -14,7 +14,8 @@ def dictionary
   }
 end 
 
-def word_substituter(dictionary, tweet)
-  tweet.zip
+def word_substituter(dictionary,tweet)
+  tweet.zip(" ")
+  
   
 end 
