@@ -15,7 +15,6 @@ def dictionary
 end 
 
 def word_substituter(tweet)
-  tweet.zip(" ")
   tweet.each do |word|
     word && dictionary.key
     word.delete << dictionary.key
